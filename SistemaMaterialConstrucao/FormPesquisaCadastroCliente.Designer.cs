@@ -1,0 +1,87 @@
+﻿namespace SistemaMaterialConstrucao
+{
+    partial class FormPesquisaCadastroCliente
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.cbCliente = new System.Windows.Forms.ComboBox();
+            this.lbPesquisaCliente = new System.Windows.Forms.Label();
+            this.btPesquisaNome = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // cbCliente
+            // 
+            this.cbCliente.FormattingEnabled = true;
+            this.cbCliente.Location = new System.Drawing.Point(100, 15);
+            this.cbCliente.Name = "cbCliente";
+            this.cbCliente.Size = new System.Drawing.Size(390, 21);
+            this.cbCliente.TabIndex = 0;
+            
+            // 
+            // lbPesquisaCliente
+            // 
+            this.lbPesquisaCliente.AutoSize = true;
+            this.lbPesquisaCliente.Location = new System.Drawing.Point(3, 23);
+            this.lbPesquisaCliente.Name = "lbPesquisaCliente";
+            this.lbPesquisaCliente.Size = new System.Drawing.Size(91, 13);
+            this.lbPesquisaCliente.TabIndex = 1;
+            this.lbPesquisaCliente.Text = "Pesquisa Cliente.:";
+            // 
+            // btPesquisaNome
+            // 
+            this.btPesquisaNome.Location = new System.Drawing.Point(496, 13);
+            this.btPesquisaNome.Name = "btPesquisaNome";
+            this.btPesquisaNome.Size = new System.Drawing.Size(36, 23);
+            this.btPesquisaNome.TabIndex = 2;
+            this.btPesquisaNome.Text = "OK";
+            this.btPesquisaNome.UseVisualStyleBackColor = true;
+            this.btPesquisaNome.Click += new System.EventHandler(this.btPesquisaNome_Click);
+            // 
+            // FormPesquisaCadastroCliente
+            // 
+            this.ClientSize = new System.Drawing.Size(552, 55);
+            this.Controls.Add(this.btPesquisaNome);
+            this.Controls.Add(this.lbPesquisaCliente);
+            this.Controls.Add(this.cbCliente);
+            this.Name = "FormPesquisaCadastroCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Pesquisa de Clientes";
+            this.Load += new System.EventHandler(this.FormPesquisaCadastroCliente_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ComboBox cbCliente;
+        private System.Windows.Forms.Label lbPesquisaCliente;
+        private System.Windows.Forms.Button btPesquisaNome;
+
+        
+    }
+}
